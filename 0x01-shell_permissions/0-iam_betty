@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo -u betty
-
+sudo betty
 
