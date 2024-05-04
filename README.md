@@ -1,1 +1,0 @@
-Schell Basics Readme

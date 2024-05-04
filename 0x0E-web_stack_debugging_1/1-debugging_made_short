@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-apt-get update
-apt-get -y install curl
-rm -f /etc/nginx/sites-available/* /etc/nginx/sites-enabled/*~
-sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-echo " * nginx is not running"
-
